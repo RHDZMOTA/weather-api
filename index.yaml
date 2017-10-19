@@ -1,0 +1,17 @@
+indexes:
+
+- kind: WeatherQuery
+  ancestor: no
+  properties:
+  - name: city_name
+    direction: asc
+  - name: unix_query
+    direction: desc
+
+- kind: WeatherQuery
+  ancestor: no
+  properties:
+  - name: unix_query
+    direction: asc
+  - name: lat
+  - name: lng

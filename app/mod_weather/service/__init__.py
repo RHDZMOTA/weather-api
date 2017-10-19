@@ -1,0 +1,1 @@
+from app.mod_weather.service.WeatherManager import WeatherManager
